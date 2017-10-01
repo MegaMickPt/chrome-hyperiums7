@@ -263,14 +263,14 @@ var Hyperiums7 = {
 		return promise;
 	},
 	ticks: [
-		new Tick('Build', 23),
-		new Tick('Cash', 31, 8, 6),
-		new Tick('Move/Control', 26),
-		new Tick('Tech', 18),
-		new Tick('N/A', 6),
-		new Tick('Battle', 6, 2),
-		new Tick('Energy', 18),
-		new Tick('Planet', 25, 12)
+		new Tick('Build', 47),
+		new Tick('Cash', 55, 8, 4),
+		new Tick('Move', 50),
+		new Tick('Control', 50),
+		new Tick('N/A', 30),
+		new Tick('Battle', 30, 2),
+		new Tick('Energy', 42),
+		new Tick('Planet', 49, 12)
 	].sort(function (a, b) {
 		return a.name.localeCompare(b.name);
 	}),
