@@ -42,7 +42,7 @@ var Hyperiums7 = {
 		return promise;
 	},
 	getServletUrl: function (servlet) {
-		return 'http://hyp2.hyperiums.com/servlet/' + servlet;
+		return 'https://www.hyperiums.com/servlet/' + servlet;
 	},
 	getLogoutUrl: function () {
 		return this.getServletUrl('Logout?logout_mode=&logout=Logout');
