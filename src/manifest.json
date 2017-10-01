@@ -26,7 +26,7 @@
 	},
 
 	"content_scripts": [{
-		"matches": ["http://hyp2.hyperiums.com/servlet/*"],
+		"matches": ["https://www.hyperiums.com/servlet/*"],
 		"js": [
 			"extlibs/jquery/jquery.js",
 			"extlibs/momentjs/moment.js",
@@ -45,10 +45,10 @@
 		]
 	}, {
 		"matches": [
-			"http://hyp2.hyperiums.com/servlet/Player",
-			"http://hyp2.hyperiums.com/servlet/Player*",
-			"http://hyp2.hyperiums.com/servlet/Forums",
-			"http://hyp2.hyperiums.com/servlet/Forums*"
+			"https://www.hyperiums.com/servlet/Player",
+			"https://www.hyperiums.com/servlet/Player*",
+			"https://www.hyperiums.com/servlet/Forums",
+			"https://www.hyperiums.com/servlet/Forums*"
 		],
 		"js": [
 			"extlibs/jquery/jquery.js",
@@ -58,12 +58,12 @@
 		]
 	}, {
 		"matches": [
-			"http://hyp2.hyperiums.com/servlet/Planetfloats",
-			"http://hyp2.hyperiums.com/servlet/Planetfloats?*",
-			"http://hyp2.hyperiums.com/servlet/Floatorders",
-			"http://hyp2.hyperiums.com/servlet/Floatorders?*",
-			"http://hyp2.hyperiums.com/servlet/Fleets",
-			"http://hyp2.hyperiums.com/servlet/Fleets?*"
+			"https://www.hyperiums.com/servlet/Planetfloats",
+			"https://www.hyperiums.com/servlet/Planetfloats?*",
+			"https://www.hyperiums.com/servlet/Floatorders",
+			"https://www.hyperiums.com/servlet/Floatorders?*",
+			"https://www.hyperiums.com/servlet/Fleets",
+			"https://www.hyperiums.com/servlet/Fleets?*"
 		],
 		"js": [
 			"extlibs/jquery-ui/jquery-ui.js",
@@ -76,7 +76,7 @@
 		]
 	}, {
 		"matches": [
-			"http://hyp2.hyperiums.com/servlet/Planetfloats?planetid=*&perplayer="
+			"https://www.hyperiums.com/servlet/Planetfloats?planetid=*&perplayer="
 		],
 		"js": [
 			"extlibs/jquery-datatables/jquery.datatables.js",
@@ -87,8 +87,8 @@
 		]
 	}, {
 		"matches": [
-			"http://hyp2.hyperiums.com/servlet/Maps",
-			"http://hyp2.hyperiums.com/servlet/Maps?*"
+			"https://www.hyperiums.com/servlet/Maps",
+			"https://www.hyperiums.com/servlet/Maps?*"
 		],
 		"js": [
 			"extlibs/jquery/jquery.js",
@@ -101,7 +101,7 @@
 		]
 	}, {
 		"matches": [
-			"http://hyp2.hyperiums.com/servlet/Trading?globalexploit="
+			"https://www.hyperiums.com/servlet/Trading?globalexploit="
 		],
 		"js": [
 			"extlibs/jquery/jquery.js",
@@ -109,7 +109,7 @@
 		]
 	}, {
 		"matches": [
-			"http://hyp2.hyperiums.com/servlet/Home"
+			"https://www.hyperiums.com/servlet/Home"
 		],
 		"js": [
 			"extlibs/jquery/jquery.js",
@@ -118,8 +118,8 @@
 		]
 	}, {
 		"matches": [
-			"http://hyp2.hyperiums.com/servlet/Player",
-			"http://hyp2.hyperiums.com/servlet/Player*"
+			"https://www.hyperiums.com/servlet/Player",
+			"https://www.hyperiums.com/servlet/Player*"
 		],
 		"js": [
 			"extlibs/jquery/jquery.js",
@@ -134,8 +134,8 @@
 		]
 	}, {
 		"matches": [
-			"http://hyp2.hyperiums.com/servlet/Cash",
-			"http://hyp2.hyperiums.com/servlet/Cash?pagetype=statement"
+			"https://www.hyperiums.com/servlet/Cash",
+			"https://www.hyperiums.com/servlet/Cash?pagetype=statement"
 		],
 		"js": [
 			"extlibs/jquery/jquery.js",
@@ -144,8 +144,8 @@
 		]
 	}, {
 		"matches": [
-			"http://hyp2.hyperiums.com/servlet/Maps?maptype=political",
-			"http://hyp2.hyperiums.com/servlet/Maps?maptype=political&*"
+			"https://www.hyperiums.com/servlet/Maps?maptype=political",
+			"https://www.hyperiums.com/servlet/Maps?maptype=political&*"
 		],
 		"js": [
 			"extlibs/jquery/jquery.js",
@@ -154,16 +154,16 @@
 		]
 	}, {
 		"matches": [
-			"http://hyp2.hyperiums.com/servlet/Planet?planetid=*",
-			"http://hyp2.hyperiums.com/servlet/Planetfloats?planetid=*"
+			"https://www.hyperiums.com/servlet/Planet?planetid=*",
+			"https://www.hyperiums.com/servlet/Planetfloats?planetid=*"
 		],
 		"js": [
 			"scripts/contentscripts/nofleet.js"
 		]
 	}, {
 		"matches": [
-			"http://hyp2.hyperiums.com/servlet/Forums",
-			"http://hyp2.hyperiums.com/servlet/Forums*"
+			"https://www.hyperiums.com/servlet/Forums",
+			"https://www.hyperiums.com/servlet/Forums*"
 		],
 		"js": [
 			"extlibs/jquery/jquery.js",
@@ -172,8 +172,8 @@
 		]
 	}, {
 		"matches": [
-			"http://hyp2.hyperiums.com/servlet/Rankpage",
-			"http://hyp2.hyperiums.com/servlet/Rankpage?*"
+			"https://www.hyperiums.com/servlet/Rankpage",
+			"https://www.hyperiums.com/servlet/Rankpage?*"
 		],
 		"js": [
 			"extlibs/jquery/jquery.js",
@@ -181,7 +181,7 @@
 		]
 	}, {
 		"matches": [
-			"http://hyp2.hyperiums.com/servlet/Maps?maptype=credits"
+			"https://www.hyperiums.com/servlet/Maps?maptype=credits"
 		],
 		"js": [
 			"extlibs/chartjs/Chart.min.js",
@@ -200,7 +200,7 @@
 	"options_page": "pages/options.html",
 
 	"permissions": [
-		"http://hyp2.hyperiums.com/",
+		"https://www.hyperiums.com/",
 		"alarms",
 		"cookies",
 		"notifications",

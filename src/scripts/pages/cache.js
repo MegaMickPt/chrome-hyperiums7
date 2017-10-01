@@ -1,5 +1,5 @@
 chrome.storage.local.get(function (storage) {
-	var reUrl = /^http:\/\/hyp2.hyperiums.com\//,
+	var reUrl = /^https:\/\/www.hyperiums.com\//,
 		tbody = $('#cache'),
 		urls = [];
 	$.each(storage, function (url, cache) {

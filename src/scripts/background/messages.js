@@ -2,7 +2,7 @@ chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
 	switch (message.request) {
 	case 'getCookie':
 		chrome.cookies.get({
-			url: 'http://hyp2.hyperiums.com/',
+			url: 'https://www.hyperiums.com/',
 			name: 'HypII2'
 		}, function (cookie) {
 			sendResponse(cookie);
